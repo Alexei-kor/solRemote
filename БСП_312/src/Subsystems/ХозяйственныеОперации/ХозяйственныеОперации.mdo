@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b449bae8-151d-4686-aa91-168693b90a39">
+  <name>ХозяйственныеОперации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хозяйственные операции</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <subsystems>Покупки</subsystems>
+  <subsystems>Продажи</subsystems>
+</mdclass:Subsystem>

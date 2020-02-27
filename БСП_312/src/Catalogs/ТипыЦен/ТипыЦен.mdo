@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b27506cc-83e0-4988-bf49-055f3cf57e9e">
+  <producedTypes>
+    <objectType typeId="2556a1e6-ea3f-4ebd-be42-557c540e2ad2" valueTypeId="19f12125-706e-40b2-b7d3-7a4c054077e9"/>
+    <refType typeId="5bf54f7e-f594-4a3c-8c97-c3a3beb706c8" valueTypeId="1d7e4435-6edc-457f-84c9-0885e2861d1b"/>
+    <selectionType typeId="d01e2759-2a8b-4d6f-80c9-568cc7ce57d9" valueTypeId="4ba4efe7-72e6-4778-97f4-56e0b2d4df9c"/>
+    <listType typeId="ac5af9fb-c99b-4d04-afee-cf34620dc0b6" valueTypeId="4be6db0f-155e-49bf-bba3-a00635f94693"/>
+    <managerType typeId="ba5bb6fb-bf05-4873-a8bb-5faac68344f4" valueTypeId="592f0772-b476-4d8c-ab14-67d7ae4ddc4f"/>
+  </producedTypes>
+  <name>ТипыЦен</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы цен</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипыЦен.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТипыЦен.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ТипыЦен.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="906eb775-d835-4925-b67c-f3cb06685521">
+    <name>ЦенаКабинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена для кабинок</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="33426596-2fb6-4985-a2ff-810e85caba1e">
+    <producedTypes>
+      <objectType typeId="8aac2462-041e-415e-b82b-030a0c402945" valueTypeId="a14d9b20-f7ef-420d-ab35-a2f10f085cb5"/>
+      <rowType typeId="6792f890-998e-44be-9458-9206303fb864" valueTypeId="9f808fc6-e818-4eea-81de-ceff05900559"/>
+    </producedTypes>
+    <name>Кабинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кабинки</value>
+    </synonym>
+    <attributes uuid="bb48e688-c6cf-408d-8200-ca17691950ea">
+      <name>Кабинка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кабинка</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.КабинкиЗагара</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="970e0237-a4b0-47fb-bf3d-74b3cf78ee7b">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ced2311-00d5-4e70-9c04-e1fabb4226fb">
+  <producedTypes>
+    <objectType typeId="fed377b4-9cc0-4bd7-a498-59b12f89d1aa" valueTypeId="d5f032df-d020-4193-a481-3e85e6e73998"/>
+    <refType typeId="5681747a-d09c-47cc-8259-f996339120d5" valueTypeId="518b48ab-702b-4d25-8fb3-c69e54e3cba8"/>
+    <selectionType typeId="7bd5f3a8-c0d1-461d-9cf6-37a8a5959efa" valueTypeId="c9e710b2-470e-4753-8b0a-82fb6a8ae6ba"/>
+    <listType typeId="ff968105-7aa0-41ad-8b3a-2806dcca6f51" valueTypeId="5a82d8f9-f690-48d1-b2ab-ca0d82ee5973"/>
+    <managerType typeId="66ada5f4-4c25-4b06-9bca-459f193b1ea8" valueTypeId="d3ab9f44-4e44-4bb1-b0e2-714def8d49c4"/>
+  </producedTypes>
+  <name>ЕдиницыИзмерения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Единицы измерения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ЕдиницыИзмерения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.ЕдиницыИзмерения.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="5d0b8b67-e43d-4c30-b005-8c31295ee328">
+    <name>ОКЕИ</name>
+    <synonym>
+      <key>ru</key>
+      <value>ОКЕИ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="768b4329-4237-4585-8cff-0746cf712568">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="b450e1b1-2717-4190-83e0-ec451160615f">
+    <name>ДобавитьИзКлассификатора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Добавить из классификатора</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Catalog>

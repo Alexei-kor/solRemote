@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca4e6b9b-e48f-4f77-bed9-3299e64007dc">
+  <name>Основные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основные</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.Организации</content>
+  <content>Catalog.Контрагенты</content>
+  <content>Catalog.БанковскиеСчета</content>
+  <content>Catalog.КлассификаторБанков</content>
+  <content>Catalog.ТипыЦен</content>
+  <content>Catalog.Номенклатура</content>
+  <content>Catalog.МестаХранения</content>
+  <content>Catalog.СтатьиЗатрат</content>
+  <content>Catalog.Кассы</content>
+  <content>Catalog.ПроизводственныеКалендари</content>
+  <content>Catalog.ГрафикиРаботы</content>
+  <content>3a6d1473-5e69-4bf0-8166-e13050a12134</content>
+  <parentSubsystem>Subsystem.НСИ</parentSubsystem>
+</mdclass:Subsystem>

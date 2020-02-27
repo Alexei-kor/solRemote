@@ -640,7 +640,7 @@
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>Картинка</dcscor:parameter>
-							<dcscor:value xsi:type="v8ui:Picture"/>
+							<dcscor:value xsi:type="v8ui:Picture"></dcscor:value>
 						</dcscor:item>
 						<dcscor:item>
 							<dcscor:parameter>РазмерКартинки</dcscor:parameter>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62c475bc-51bd-4b2c-99b0-67698a3dba4b">
+  <name>Покупки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Покупки</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>InformationRegister.ДатыПриобретенияЛамп</content>
+  <content>Document.ПокупкаТоваровУслуг</content>
+  <parentSubsystem>Subsystem.ХозяйственныеОперации</parentSubsystem>
+</mdclass:Subsystem>

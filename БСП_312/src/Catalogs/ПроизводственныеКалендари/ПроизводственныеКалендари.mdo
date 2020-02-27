@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa6ec804-f318-4ef2-a1fa-2b3635eb44d5">
+  <producedTypes>
+    <objectType typeId="ae601614-eeb8-4b15-b592-4d9c3548e497" valueTypeId="651e5fad-a43b-4173-a8ae-262291e2ad1c"/>
+    <refType typeId="2d350efe-5f4e-467f-8921-cc14af094153" valueTypeId="cecab817-d933-435d-bff3-b0bd3f27676b"/>
+    <selectionType typeId="f67e0306-881e-47b4-aa0d-6741dbf542b7" valueTypeId="7784223a-35ad-4352-abd3-0cb195e8166d"/>
+    <listType typeId="9cf606ec-75e3-45f4-8cef-7d7ac9548d43" valueTypeId="e3bcbdd2-33e3-47c0-8b11-32416ee1b6bb"/>
+    <managerType typeId="bafb1834-8d5c-420f-8c98-e591faab5003" valueTypeId="b3ff7d34-d2c7-41ad-9e01-edda0761ffbd"/>
+  </producedTypes>
+  <name>ПроизводственныеКалендари</name>
+  <synonym>
+    <key>ru</key>
+    <value>Производственные календари</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ПроизводственныеКалендари.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ПроизводственныеКалендари.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

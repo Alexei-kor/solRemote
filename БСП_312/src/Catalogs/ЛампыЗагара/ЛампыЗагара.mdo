@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="965fc0fb-4e80-4c63-af51-fabc530a6333">
+  <producedTypes>
+    <objectType typeId="355adb18-d40c-49d0-89e6-453ebca6b2c2" valueTypeId="447f3e21-0bb6-49af-b750-7969f8ea972b"/>
+    <refType typeId="3537d765-4cdf-4347-93e9-5ded1ce232c3" valueTypeId="21a7eae5-6d19-45e3-8de8-50331580ab7c"/>
+    <selectionType typeId="242a7cd4-cca0-4e4d-bdb7-2c02931e420d" valueTypeId="647483e3-9275-4b62-9a22-2b414f676c85"/>
+    <listType typeId="ec8d4d48-0324-4747-bb35-4662282d3588" valueTypeId="00df1c29-b96a-46f9-99e3-1d0b42282f8a"/>
+    <managerType typeId="313e4ea1-bb9a-4ccd-9cd3-1edba5f731e1" valueTypeId="44535d9f-1dc5-484c-97b5-c2fad3bf40b6"/>
+  </producedTypes>
+  <name>ЛампыЗагара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Лампы загара</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ЛампыЗагара.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ЛампыЗагара.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="b31e2ffe-4792-4c98-9761-9ecb78834f2f">
+    <name>КоличествоМинут</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество минут (норматив)</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

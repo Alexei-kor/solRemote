@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f186feb7-0efd-4f34-a242-781f6eb0d9da">
+  <producedTypes>
+    <objectType typeId="082db66a-ee46-4a83-ba63-1d2455405ee9" valueTypeId="4fc9b1e0-7308-4012-a486-67a881c65ce6"/>
+    <refType typeId="22b58cdf-b88f-4e37-9590-cab8e58629ee" valueTypeId="797d5587-8b9c-4b69-9aea-2a940b253e05"/>
+    <selectionType typeId="81788c0e-5937-4c3d-91b0-9f827a4391b4" valueTypeId="36b31782-562f-49d2-97bc-48ea83dc2b7e"/>
+    <listType typeId="450608ac-11e8-41e9-a5bd-842d31f2d731" valueTypeId="907b2686-bc0d-4f5d-81bd-6ed96c32432a"/>
+    <managerType typeId="d2817f72-362f-4592-ae93-826014917533" valueTypeId="51868672-4589-47b9-91f0-f68731b94310"/>
+  </producedTypes>
+  <name>Абонементы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Абонементы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Абонементы.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Абонементы.Attribute.НомерАбоменента</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Абонементы.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="dd7512bf-da92-4e09-a937-b83c2e967ac9">
+    <name>НомерАбоменента</name>
+    <synonym>
+      <key>ru</key>
+      <value>№</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="241adbba-b97f-48e9-bdef-106a81fc72d5">
+    <name>КоличествоМинут</name>
+    <synonym>
+      <key>ru</key>
+      <value>Минут</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>4</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="11abc7b0-a2c0-4cb3-aa00-7ac8043bcb58">
+    <name>ДействуетНаКабинкиИзФильтра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Для кабинок</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="fbd202eb-e897-4cd2-b408-814df4f91f78">
+    <name>СрокДействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Действует до</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="975c58ce-fdd5-438e-9917-f1591a3f792d">
+    <producedTypes>
+      <objectType typeId="f49ff830-52b4-4aa9-99e5-6f98938b36cc" valueTypeId="66b64fe0-e2fc-498e-b484-bfc35dbb30fc"/>
+      <rowType typeId="1ad7981e-d18a-48e1-9925-fc949a35b15d" valueTypeId="64bb7b79-bb5c-4af2-9e6f-36e9f2a9a4d1"/>
+    </producedTypes>
+    <name>Кабинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кабинки</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="802770c7-49b3-492a-aa7d-7de315637f85">
+      <name>Кабинка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кабинка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="95979b4a-af05-4967-8c29-6b8931ab1dae">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

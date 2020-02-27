@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a496c336-1723-497e-86e6-5eeb583942ee">
+  <producedTypes>
+    <objectType typeId="d4f3d450-9c1c-45d0-8af4-d9dbc6e23090" valueTypeId="f4d88bec-d20a-4330-999c-ae2833d257e6"/>
+    <refType typeId="055b23b4-f2d9-4d87-9ae2-daa3da8f6f65" valueTypeId="20494104-4f7e-4144-9aa8-3096ce840ef7"/>
+    <selectionType typeId="16195c66-da5e-40b5-8f18-d792e755a1fb" valueTypeId="864cad98-fd2d-4a55-91d2-39a63d64e19d"/>
+    <listType typeId="33c4201c-4099-46fd-8faf-03d97edb39d1" valueTypeId="0bd7b2e9-c27f-4dc7-a778-060ee60c15d2"/>
+    <managerType typeId="28b6b9a5-103d-4372-a807-cb50efff0486" valueTypeId="5182f53a-3036-4e99-94c4-663e6d1c899d"/>
+  </producedTypes>
+  <name>МестаХранения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Места хранения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МестаХранения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.МестаХранения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

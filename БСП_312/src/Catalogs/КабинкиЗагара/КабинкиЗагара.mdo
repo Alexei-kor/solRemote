@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9ab5577e-8e42-41a2-8306-76c021cc46d7">
+  <producedTypes>
+    <objectType typeId="2b89ff12-ba77-4e1a-9dbb-f976743cda56" valueTypeId="4c5b976c-9523-4c4d-a6ca-77a8e3d93263"/>
+    <refType typeId="e8e140dc-ed3a-45ae-a962-34c41f3188a2" valueTypeId="069f7eb3-6ece-467e-8784-2847294043c2"/>
+    <selectionType typeId="4adf5788-7913-4753-bcb4-5b1a087f499c" valueTypeId="497d8650-88bd-464a-a669-1e4c4b393e4b"/>
+    <listType typeId="3bafc1ae-b89c-4c86-bddd-97b4888f50e2" valueTypeId="2d4db931-907b-497a-8a34-281ffc883628"/>
+    <managerType typeId="ba0eaa3a-c840-4047-ac08-ebe81674b034" valueTypeId="99d3f1e8-1072-45b1-bae2-f3f3b1ac5001"/>
+  </producedTypes>
+  <name>КабинкиЗагара</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кабинки для загара</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.КабинкиЗагара.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.КабинкиЗагара.Attribute.НомерКабинки</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.КабинкиЗагара.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="5a901283-43c2-44b3-abcb-ba9f9f062a07">
+    <name>НомерКабинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>№</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="d4272956-c6b4-4e2c-922c-133cec501e37">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

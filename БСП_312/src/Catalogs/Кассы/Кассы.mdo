@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="858d6e81-8ded-4546-ab30-440a5c211e78">
+  <producedTypes>
+    <objectType typeId="1db9564a-e997-41b8-af2c-a83a0ce858ea" valueTypeId="f9fe811b-ccf0-4665-a99a-be7b8668f398"/>
+    <refType typeId="ec5acf36-610a-47ad-b597-8c93604c6e60" valueTypeId="80178f4e-3d2b-485b-94bb-c46f1c3432ba"/>
+    <selectionType typeId="f57bf41d-2d1a-4099-83e7-a712acfefebb" valueTypeId="349d346f-e982-4291-a1c1-9ac69fe5fdb7"/>
+    <listType typeId="259bf675-28f0-4624-ae7a-4551aace44d9" valueTypeId="794bf570-b77b-477f-b630-3ddc24ef8fbf"/>
+    <managerType typeId="717f90e2-d298-42cc-bfe9-33874fd5c1dc" valueTypeId="ec1da93a-4fc4-4b86-8e0e-9dcd53a0ba16"/>
+  </producedTypes>
+  <name>Кассы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кассы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Кассы.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Кассы.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <dataHistory>Use</dataHistory>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <owners>Catalog.Организации</owners>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

@@ -36,6 +36,9 @@
   <subsystems>Subsystem.Администрирование</subsystems>
   <subsystems>Subsystem.ПодключаемыеОтчетыИОбработки</subsystems>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+  <subsystems>Subsystem.НСИ</subsystems>
+  <subsystems>Subsystem.ХозяйственныеОперации</subsystems>
+  <subsystems>Subsystem.Взаимодействия</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовЦвет</styleItems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовВажнаяШрифт</styleItems>
@@ -607,6 +610,7 @@
   <functionalOptions>FunctionalOption.СтандартныеПодсистемыВАвтономномРежиме</functionalOptions>
   <functionalOptions>FunctionalOption.СтандартныеПодсистемыВЛокальномРежиме</functionalOptions>
   <functionalOptions>FunctionalOption.СтандартныеПодсистемыВМоделиСервиса</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьНесколькоОрганизаций</functionalOptions>
   <functionalOptionsParameters>FunctionalOptionsParameter.ТипВерсионируемогоОбъекта</functionalOptionsParameters>
   <definedTypes>DefinedType.АдресатЗапретаИзменения</definedTypes>
   <definedTypes>DefinedType.ВерсионируемыеДанные</definedTypes>
@@ -680,6 +684,7 @@
   <constants>Constant.СведенияОБлокируемыхОбъектах</constants>
   <constants>Constant.СведенияОбОбновленииИБ</constants>
   <constants>Constant.ЭтоАвтономноеРабочееМесто</constants>
+  <constants>Constant.ИспользоватьНесколькоОрганизаций</constants>
   <commonForms>CommonForm.ВводЗначенийСпискомСФлажками</commonForms>
   <commonForms>CommonForm.ВосстановлениеСвязиСГлавнымУзлом</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеВнешнейКомпоненты</commonForms>
@@ -735,6 +740,22 @@
   <catalogs>Catalog.ПредопределенныеВариантыОтчетовРасширений</catalogs>
   <catalogs>Catalog.ПрофилиКлючевыхОпераций</catalogs>
   <catalogs>Catalog.СтраныМира</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.БанковскиеСчета</catalogs>
+  <catalogs>Catalog.КлассификаторБанков</catalogs>
+  <catalogs>Catalog.КабинкиЗагара</catalogs>
+  <catalogs>Catalog.Абонементы</catalogs>
+  <catalogs>Catalog.ТипыЦен</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.МестаХранения</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
+  <catalogs>Catalog.СтатьиЗатрат</catalogs>
+  <catalogs>Catalog.Кассы</catalogs>
+  <catalogs>Catalog.ЛампыЗагара</catalogs>
+  <catalogs>Catalog.ПроизводственныеКалендари</catalogs>
+  <catalogs>Catalog.ГрафикиРаботы</catalogs>
+  <documents>Document.ПокупкаТоваровУслуг</documents>
   <enums>Enum.ВажностьПроблемыУчета</enums>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
   <enums>Enum.ВидыНазначенияДатЗапрета</enums>
@@ -750,6 +771,7 @@
   <enums>Enum.УровниПроизводительности</enums>
   <enums>Enum.ФорматыСохраненияОтчетов</enums>
   <enums>Enum.ЦветаЗаметок</enums>
+  <enums>Enum.ЮрФизЛицо</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.ДатыЗапретаЗагрузки</reports>
   <reports>Report.ДатыЗапретаИзменения</reports>
@@ -805,5 +827,6 @@
   <informationRegisters>InformationRegister.СоставыГруппПользователей</informationRegisters>
   <informationRegisters>InformationRegister.СостоянияПроверокВеденияУчета</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьЗамерыВремени3</informationRegisters>
+  <informationRegisters>InformationRegister.ДатыПриобретенияЛамп</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>
 </mdclass:Configuration>
