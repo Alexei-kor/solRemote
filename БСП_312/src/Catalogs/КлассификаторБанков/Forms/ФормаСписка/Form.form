@@ -379,7 +379,7 @@
     <navigationPanel/>
     <commandBar>
       <cmiFragmentRecord>
-        <command>Catalog.КлассификаторБанков.Command.ДобавитьИзКлассификатора</command>
+        <command>Catalog.КлассификаторБанков.Command.ЗагрузитьИзКлассифиватора</command>
         <type>Added</type>
         <group>FormCommandBarImportant</group>
         <index>0</index>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6312731-6295-4c8c-bf9c-81aa815d8654">
+  <name>КалендарныеГрафикиПереопределяемый</name>
+  <synonym>
+    <key>ru</key>
+    <value>Календарные графики переопределяемый</value>
+  </synonym>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

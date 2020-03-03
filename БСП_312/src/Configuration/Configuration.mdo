@@ -40,12 +40,18 @@
   <subsystems>Subsystem.ХозяйственныеОперации</subsystems>
   <subsystems>Subsystem.Взаимодействия</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
-  <styleItems>StyleItem.ГруппаВариантовОтчетовЦвет</styleItems>
-  <styleItems>StyleItem.ГруппаВариантовОтчетовВажнаяШрифт</styleItems>
+  <styleItems>StyleItem.ВидДняПроизводственногоКалендаряВоскресеньеЦвет</styleItems>
+  <styleItems>StyleItem.ВидДняПроизводственногоКалендаряНеУказанЦвет</styleItems>
+  <styleItems>StyleItem.ВидДняПроизводственногоКалендаряПраздникЦвет</styleItems>
+  <styleItems>StyleItem.ВидДняПроизводственногоКалендаряПредпраздничныйЦвет</styleItems>
+  <styleItems>StyleItem.ВидДняПроизводственногоКалендаряРабочийЦвет</styleItems>
+  <styleItems>StyleItem.ВидДняПроизводственногоКалендаряСубботаЦвет</styleItems>
   <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
+  <styleItems>StyleItem.ГруппаВариантовОтчетовВажнаяШрифт</styleItems>
+  <styleItems>StyleItem.ГруппаВариантовОтчетовОбычнаяШрифт</styleItems>
+  <styleItems>StyleItem.ГруппаВариантовОтчетовЦвет</styleItems>
   <styleItems>StyleItem.ГруппаВариантовОтчетовЦвет82</styleItems>
   <styleItems>StyleItem.ДобавленныйРеквизитФон</styleItems>
-  <styleItems>StyleItem.ГруппаВариантовОтчетовОбычнаяШрифт</styleItems>
   <styleItems>StyleItem.ЗаблокированныйРеквизитЦвет</styleItems>
   <styleItems>StyleItem.ЗаголовокГруппировкиОтчетаОДвиженияхДокументаШрифт</styleItems>
   <styleItems>StyleItem.ЗаголовокДелаЦвет</styleItems>
@@ -74,24 +80,24 @@
   <styleItems>StyleItem.ЦветРазделаПанелиФункций</styleItems>
   <styleItems>StyleItem.ЦветФонаПредупреждения</styleItems>
   <commonPictures>CommonPicture.GoogleMaps</commonPictures>
-  <commonPictures>CommonPicture.ВставитьИзБуфераОбмена</commonPictures>
+  <commonPictures>CommonPicture.Skype</commonPictures>
+  <commonPictures>CommonPicture.БыстрыеНастройкиОтчета</commonPictures>
+  <commonPictures>CommonPicture.БыстрыйДоступ</commonPictures>
+  <commonPictures>CommonPicture.БыстрыйДоступДобавить</commonPictures>
+  <commonPictures>CommonPicture.БыстрыйДоступСФлажком</commonPictures>
+  <commonPictures>CommonPicture.БыстрыйДоступУдалить</commonPictures>
+  <commonPictures>CommonPicture.ВариантыОтчетовДоступныеВсемПользователям</commonPictures>
+  <commonPictures>CommonPicture.ВертикальноеПоложениеВерх</commonPictures>
+  <commonPictures>CommonPicture.ВертикальноеПоложениеНиз</commonPictures>
+  <commonPictures>CommonPicture.ВертикальноеПоложениеЦентр</commonPictures>
+  <commonPictures>CommonPicture.ВидСравнения</commonPictures>
+  <commonPictures>CommonPicture.ВидыКонтактнойИнформации</commonPictures>
+  <commonPictures>CommonPicture.ВидыОпераций</commonPictures>
   <commonPictures>CommonPicture.Вопрос32</commonPictures>
   <commonPictures>CommonPicture.ВосклицательныйЗнакКрасный</commonPictures>
   <commonPictures>CommonPicture.ВосклицательныйЗнакСерый</commonPictures>
-  <commonPictures>CommonPicture.ВидСравнения</commonPictures>
-  <commonPictures>CommonPicture.БыстрыйДоступСФлажком</commonPictures>
-  <commonPictures>CommonPicture.ВариантыОтчетовДоступныеВсемПользователям</commonPictures>
-  <commonPictures>CommonPicture.БыстрыеНастройкиОтчета</commonPictures>
-  <commonPictures>CommonPicture.БыстрыйДоступДобавить</commonPictures>
-  <commonPictures>CommonPicture.ВертикальноеПоложениеНиз</commonPictures>
+  <commonPictures>CommonPicture.ВставитьИзБуфераОбмена</commonPictures>
   <commonPictures>CommonPicture.ВыбратьВариантОтчета</commonPictures>
-  <commonPictures>CommonPicture.Skype</commonPictures>
-  <commonPictures>CommonPicture.ВидыОпераций</commonPictures>
-  <commonPictures>CommonPicture.БыстрыйДоступ</commonPictures>
-  <commonPictures>CommonPicture.ВертикальноеПоложениеВерх</commonPictures>
-  <commonPictures>CommonPicture.БыстрыйДоступУдалить</commonPictures>
-  <commonPictures>CommonPicture.ВидыКонтактнойИнформации</commonPictures>
-  <commonPictures>CommonPicture.ВертикальноеПоложениеЦентр</commonPictures>
   <commonPictures>CommonPicture.ВыравниваниеПоЛевомуКраю</commonPictures>
   <commonPictures>CommonPicture.ВыравниваниеПоПравомуКраю</commonPictures>
   <commonPictures>CommonPicture.ВыравниваниеПоЦентру</commonPictures>
@@ -543,22 +549,35 @@
   <commonModules>CommonModule.ФайловаяСистемаКлиент</commonModules>
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
+  <commonModules>CommonModule.КалендарныеГрафики</commonModules>
+  <commonModules>CommonModule.КалендарныеГрафикиПереопределяемый</commonModules>
+  <commonModules>CommonModule.КалендарныеГрафикиСлужебный</commonModules>
+  <commonModules>CommonModule.РаботаСБанками</commonModules>
+  <commonModules>CommonModule.РаботаСБанкамиГлобальный</commonModules>
+  <commonModules>CommonModule.РаботаСБанкамиКлиент</commonModules>
+  <commonModules>CommonModule.РаботаСБанкамиПереопределяемый</commonModules>
+  <commonModules>CommonModule.РаботаСБанкамиСлужебный</commonModules>
+  <commonModules>CommonModule.ПолучениеФайловИзИнтернета</commonModules>
+  <commonModules>CommonModule.ПолучениеФайловИзИнтернетаКлиент</commonModules>
+  <commonModules>CommonModule.ПолучениеФайловИзИнтернетаКлиентСервер</commonModules>
+  <commonModules>CommonModule.ПолучениеФайловИзИнтернетаСлужебный</commonModules>
+  <commonModules>CommonModule.ПолучениеФайловИзИнтернетаСлужебныйВызовСервера</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык2</commonAttributes>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.ApdexExport</xDTOPackages>
+  <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_2</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_3</xDTOPackages>
   <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_4</xDTOPackages>
-  <xDTOPackages>XDTOPackage.ApdexExport_1_0_0_2</xDTOPackages>
   <xDTOPackages>XDTOPackage.Адрес</xDTOPackages>
   <xDTOPackages>XDTOPackage.КонтактнаяИнформация</xDTOPackages>
   <webServices>WebService.InterfaceVersion</webServices>
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПередУдалениемИдентификатораОбъектаМетаданных</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВариантыОтчетовПриУдаленииПользователя</eventSubscriptions>
-  <eventSubscriptions>EventSubscription.ЗаписатьВерсиюОбъекта</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ВыполнитьДействияПослеПолученияДанныхУзлаВРаспределеннойИнформационнойБазе</eventSubscriptions>
+  <eventSubscriptions>EventSubscription.ЗаписатьВерсиюОбъекта</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗаполнитьЗначениеРеквизитаУпорядочивания</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗаполнитьКонтактнуюИнформацию</eventSubscriptions>
   <eventSubscriptions>EventSubscription.ЗапретитьПометкуУдаленияПредопределенныхЭлементов</eventSubscriptions>
@@ -632,10 +651,10 @@
   <definedTypes>DefinedType.ФизическоеЛицо</definedTypes>
   <commonCommands>CommonCommand.ВремяТекущегоСеанса</commonCommands>
   <commonCommands>CommonCommand.ИсторияИзменений</commonCommands>
-  <commonCommands>CommonCommand.МоиЗаметкиПоПредмету</commonCommands>
   <commonCommands>CommonCommand.Напомнить</commonCommands>
   <commonCommands>CommonCommand.НастройкаКолонтитулов</commonCommands>
   <commonCommands>CommonCommand.ПанельОтчетовАдминистрирование</commonCommands>
+  <commonCommands>CommonCommand.МоиЗаметкиПоПредмету</commonCommands>
   <commonCommands>CommonCommand.ПоказатьРезультатРезервногоКопирования</commonCommands>
   <commonCommands>CommonCommand.ПредупрежденияПриЗавершенииРаботы</commonCommands>
   <commonCommands>CommonCommand.СведенияОПользователе</commonCommands>
@@ -643,13 +662,13 @@
   <commonCommands>CommonCommand.СменитьПароль</commonCommands>
   <commonCommands>CommonCommand.СоздатьЗаметкуПоПредмету</commonCommands>
   <commonCommands>CommonCommand.УстановитьРасширениеДляРаботыС1СПредприятием</commonCommands>
+  <commonCommands>CommonCommand.ПерсональнаяНастройкаПроксиСервера</commonCommands>
   <commandGroups>CommandGroup.Информация</commandGroups>
   <commandGroups>CommandGroup.Органайзер</commandGroups>
   <commandGroups>CommandGroup.Печать</commandGroups>
   <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВЛокальнойСети</constants>
   <constants>Constant.ВыполнятьЗамерыПроизводительности</constants>
-  <constants>Constant.ВерсияДатЗапретаИзменения</constants>
   <constants>Constant.ГлавныйУзел</constants>
   <constants>Constant.ДатаПоследнейВыгрузкиЗамеровПроизводительностиUTC</constants>
   <constants>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</constants>
@@ -671,6 +690,7 @@
   <constants>Constant.ИспользоватьУдалениеПомеченныхОбъектов</constants>
   <constants>Constant.КоличествоЗамеровВПакетеЭкспорта</constants>
   <constants>Constant.КоличествоПотоковОбновленияИнформационнойБазы</constants>
+  <constants>Constant.ВерсияДатЗапретаИзменения</constants>
   <constants>Constant.НастройкиВходаПользователей</constants>
   <constants>Constant.НастройкиКолонтитулов</constants>
   <constants>Constant.НеИспользоватьРазделениеПоОбластямДанных</constants>
@@ -685,20 +705,22 @@
   <constants>Constant.СведенияОбОбновленииИБ</constants>
   <constants>Constant.ЭтоАвтономноеРабочееМесто</constants>
   <constants>Constant.ИспользоватьНесколькоОрганизаций</constants>
+  <constants>Constant.ВерсияКлассификатораБанков</constants>
+  <constants>Constant.НастройкаПроксиСервера</constants>
   <commonForms>CommonForm.ВводЗначенийСпискомСФлажками</commonForms>
-  <commonForms>CommonForm.ВосстановлениеСвязиСГлавнымУзлом</commonForms>
-  <commonForms>CommonForm.ВопросОбУстановкеВнешнейКомпоненты</commonForms>
   <commonForms>CommonForm.ВводНаРазныхЯзыках</commonForms>
-  <commonForms>CommonForm.Вопрос</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</commonForms>
+  <commonForms>CommonForm.ВосстановлениеСвязиСГлавнымУзлом</commonForms>
   <commonForms>CommonForm.ВспомогательнаяФормаНастроекОтчета</commonForms>
   <commonForms>CommonForm.ВходВПрограммуЗапрещен</commonForms>
+  <commonForms>CommonForm.ВыборДаты</commonForms>
   <commonForms>CommonForm.ВыборОбъектовМетаданных</commonForms>
   <commonForms>CommonForm.ВыборТиповПользователей</commonForms>
   <commonForms>CommonForm.ВыборУзловПлановОбмена</commonForms>
   <commonForms>CommonForm.ВыборФорматаВложений</commonForms>
   <commonForms>CommonForm.ГруппыПользователей</commonForms>
   <commonForms>CommonForm.ДлительнаяОперация</commonForms>
+  <commonForms>CommonForm.Вопрос</commonForms>
   <commonForms>CommonForm.НастройкаКолонтитулов</commonForms>
   <commonForms>CommonForm.НастройкаКомандПечати</commonForms>
   <commonForms>CommonForm.НастройкиВходаПользователей</commonForms>
@@ -706,6 +728,7 @@
   <commonForms>CommonForm.ОписаниеИзмененийПрограммы</commonForms>
   <commonForms>CommonForm.ПанельОтчетов</commonForms>
   <commonForms>CommonForm.ПараметрыАдминистрированияПрограммы</commonForms>
+  <commonForms>CommonForm.ВопросОбУстановкеВнешнейКомпоненты</commonForms>
   <commonForms>CommonForm.ПечатьДокументов</commonForms>
   <commonForms>CommonForm.ПодготовкаНовогоПисьма</commonForms>
   <commonForms>CommonForm.ПредупреждениеБезопасности</commonForms>
@@ -722,6 +745,8 @@
   <commonForms>CommonForm.ФормаНастроекОтчета</commonForms>
   <commonForms>CommonForm.ФормаОтчета</commonForms>
   <commonForms>CommonForm.ФормаПоиска</commonForms>
+  <commonForms>CommonForm.ДополнительныеПараметрыПроксиСервера</commonForms>
+  <commonForms>CommonForm.ПараметрыПроксиСервера</commonForms>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
   <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
@@ -758,6 +783,7 @@
   <documents>Document.ПокупкаТоваровУслуг</documents>
   <enums>Enum.ВажностьПроблемыУчета</enums>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
+  <enums>Enum.ВидыДнейПроизводственногоКалендаря</enums>
   <enums>Enum.ВидыНазначенияДатЗапрета</enums>
   <enums>Enum.ДоступныеПериодыОтчета</enums>
   <enums>Enum.СпособыВыполненияПроверки</enums>
@@ -770,12 +796,12 @@
   <enums>Enum.ТипыОтчетов</enums>
   <enums>Enum.УровниПроизводительности</enums>
   <enums>Enum.ФорматыСохраненияОтчетов</enums>
-  <enums>Enum.ЦветаЗаметок</enums>
   <enums>Enum.ЮрФизЛицо</enums>
+  <enums>Enum.ЦветаЗаметок</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
+  <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.ДатыЗапретаЗагрузки</reports>
   <reports>Report.ДатыЗапретаИзменения</reports>
-  <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.ДвиженияДокумента</reports>
   <reports>Report.ОценкаПроизводительности</reports>
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
@@ -783,10 +809,11 @@
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.УниверсальныйОтчет</reports>
   <dataProcessors>DataProcessor.АктивныеПользователи</dataProcessors>
+  <dataProcessors>DataProcessor.БлокировкаРаботыПользователей</dataProcessors>
   <dataProcessors>DataProcessor.ВводКонтактнойИнформации</dataProcessors>
   <dataProcessors>DataProcessor.ГрупповоеИзменениеРеквизитов</dataProcessors>
-  <dataProcessors>DataProcessor.БлокировкаРаботыПользователей</dataProcessors>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаКлассификатораБанков</dataProcessors>
   <dataProcessors>DataProcessor.НастройкаРезервногоКопированияИБ</dataProcessors>
   <dataProcessors>DataProcessor.НастройкиПользователей</dataProcessors>
   <dataProcessors>DataProcessor.НерекомендуемаяВерсияПлатформы</dataProcessors>
@@ -800,11 +827,12 @@
   <dataProcessors>DataProcessor.ТекущиеДела</dataProcessors>
   <dataProcessors>DataProcessor.УдалениеПомеченныхОбъектов</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
-  <informationRegisters>InformationRegister.ВерсииОбъектов</informationRegisters>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанныхОбластейДанных</informationRegisters>
   <informationRegisters>InformationRegister.БлокировкиСеансовОбластейДанных</informationRegisters>
+  <informationRegisters>InformationRegister.ВерсииОбъектов</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</informationRegisters>
+  <informationRegisters>InformationRegister.ДанныеПроизводственногоКалендаря</informationRegisters>
   <informationRegisters>InformationRegister.ДатыЗапретаИзменения</informationRegisters>
   <informationRegisters>InformationRegister.ЗамерыВремени</informationRegisters>
   <informationRegisters>InformationRegister.ЗамерыВремениТехнологические</informationRegisters>
@@ -826,7 +854,8 @@
   <informationRegisters>InformationRegister.СеансыВерсийРасширений</informationRegisters>
   <informationRegisters>InformationRegister.СоставыГруппПользователей</informationRegisters>
   <informationRegisters>InformationRegister.СостоянияПроверокВеденияУчета</informationRegisters>
-  <informationRegisters>InformationRegister.УдалитьЗамерыВремени3</informationRegisters>
   <informationRegisters>InformationRegister.ДатыПриобретенияЛамп</informationRegisters>
+  <informationRegisters>InformationRegister.УдалитьЗамерыВремени3</informationRegisters>
+  <informationRegisters>InformationRegister.ДанныеПроизводственногоКалендаряПомесячно</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

@@ -193,11 +193,11 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <commands uuid="3fd6ec88-a55b-447b-8290-e7fcb964dedf">
-    <name>ДобавитьИзКлассификатора</name>
+  <commands uuid="909c625d-11f8-4785-8366-e87c028346cc">
+    <name>ЗагрузитьИзКлассифиватора</name>
     <synonym>
       <key>ru</key>
-      <value>Добавить из классификатора</value>
+      <value>Загрузить из классифиватора</value>
     </synonym>
     <group>FormCommandBarImportant</group>
     <commandParameterType/>

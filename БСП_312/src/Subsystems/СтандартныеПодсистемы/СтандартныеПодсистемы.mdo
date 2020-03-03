@@ -7,10 +7,9 @@
   </synonym>
   <subsystems>АнализЖурналаРегистрации</subsystems>
   <subsystems>БазоваяФункциональность</subsystems>
-  <subsystems>ДатыЗапретаИзменения</subsystems>
-  <subsystems>ГрупповоеИзменениеОбъектов</subsystems>
   <subsystems>ВерсионированиеОбъектов</subsystems>
-  <subsystems>ВариантыОтчетов</subsystems>
+  <subsystems>ГрупповоеИзменениеОбъектов</subsystems>
+  <subsystems>ДатыЗапретаИзменения</subsystems>
   <subsystems>ЗавершениеРаботыПользователей</subsystems>
   <subsystems>ЗаметкиПользователя</subsystems>
   <subsystems>ЗапретРедактированияРеквизитовОбъектов</subsystems>
@@ -26,9 +25,12 @@
   <subsystems>Печать</subsystems>
   <subsystems>ПодключаемыеКоманды</subsystems>
   <subsystems>ПолнотекстовыйПоиск</subsystems>
+  <subsystems>ВариантыОтчетов</subsystems>
   <subsystems>Пользователи</subsystems>
   <subsystems>РезервноеКопированиеИБ</subsystems>
   <subsystems>СтруктураПодчиненности</subsystems>
   <subsystems>ТекущиеДела</subsystems>
   <subsystems>УдалениеПомеченныхОбъектов</subsystems>
+  <subsystems>Банки</subsystems>
+  <subsystems>ПолучениеФайловИзИнтернета</subsystems>
 </mdclass:Subsystem>

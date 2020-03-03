@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52f6a2b0-ce55-4e89-8037-275f2b6a6817">
+  <producedTypes>
+    <objectType typeId="20daf617-4fd8-4ebc-9655-4d08a8b5748d" valueTypeId="caf2d0aa-3bd0-4eab-8ffe-46f73391feaf"/>
+    <managerType typeId="61c31f04-dd3d-4d46-8c72-146cffdb6445" valueTypeId="26cf8d17-1f83-4683-8d04-2cbaf266f0d0"/>
+  </producedTypes>
+  <name>ЗагрузкаКлассификатораБанков</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка классификатора банков</value>
+  </synonym>
+  <defaultForm>DataProcessor.ЗагрузкаКлассификатораБанков.Form.Форма</defaultForm>
+  <forms uuid="310aef5a-84d9-4a68-af78-d623beff8a88">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="8318e6cd-18e8-47e9-89e7-94ff043afab9">
+    <name>ЗагрузкаКлассификатораБанков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка классификатора банков РФ</value>
+    </synonym>
+    <comment>Открывает помощник загрузки классификатора банков РФ</comment>
+    <group>ActionsPanelTools</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>

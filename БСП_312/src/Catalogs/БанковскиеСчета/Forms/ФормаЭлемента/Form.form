@@ -65,6 +65,10 @@
         <segments>Объект.НомерСчета</segments>
       </paths>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>НомерСчетаПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>НомерСчетаРасширеннаяПодсказка</name>
       <id>12</id>
@@ -169,6 +173,10 @@
         <segments>Объект.Банк</segments>
       </paths>
     </dataPath>
+    <handlers>
+      <event>OnChange</event>
+      <name>БанкПриИзменении</name>
+    </handlers>
     <extendedTooltip>
       <name>БанкРасширеннаяПодсказка</name>
       <id>15</id>
@@ -200,6 +208,10 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:InputFieldExtInfo">
+      <handlers>
+        <event>ChoiceProcessing</event>
+        <name>БанкОбработкаВыбора</name>
+      </handlers>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>

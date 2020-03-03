@@ -346,7 +346,7 @@
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
-      <command>100:4399c19a-ddba-42e9-88b4-c5c28abad237</command>
+      <command>CommonForm.ПараметрыПроксиСервера.StandardCommand.Open</command>
       <visible/>
     </visibilityFragments>
     <visibilityFragments>
@@ -580,7 +580,7 @@
       <commands>CommonForm.ОписаниеИзмененийПрограммы.StandardCommand.Open</commands>
       <commands>DataProcessor.ОценкаПроизводительности.StandardCommand.Open</commands>
       <commands>DataProcessor.НастройкиПользователей.Command.ОчисткаНастроекПользователей</commands>
-      <commands>100:4399c19a-ddba-42e9-88b4-c5c28abad237</commands>
+      <commands>CommonForm.ПараметрыПроксиСервера.StandardCommand.Open</commands>
       <commands>0:6d63728d-3384-4131-b890-1b82d14a04b7</commands>
       <commands>0:4a749e8c-cb35-4bc4-9b31-fb5bc0eab474</commands>
       <commands>0:239601eb-e8de-4d58-a32a-01ee52f6e698</commands>
