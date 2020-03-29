@@ -33,6 +33,7 @@
   <quickChoice>true</quickChoice>
   <choiceMode>BothWays</choiceMode>
   <defaultObjectForm>Catalog.КабинкиЗагара.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultChoiceForm>Catalog.КабинкиЗагара.Form.ФормаВыбора</defaultChoiceForm>
   <attributes uuid="5a901283-43c2-44b3-abcb-ba9f9f062a07">
     <name>НомерКабинки</name>
     <synonym>
@@ -59,6 +60,15 @@
     <synonym>
       <key>ru</key>
       <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="8053af87-92a8-4585-89d6-56b5cc780e2a">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

@@ -5,13 +5,7 @@
     <key>ru</key>
     <value>Банки</value>
   </synonym>
-  <content>CommonModule.РаботаСБанками</content>
   <content>Constant.ВерсияКлассификатораБанков</content>
   <content>Catalog.КлассификаторБанков</content>
-  <content>CommonModule.РаботаСБанкамиГлобальный</content>
-  <content>CommonModule.РаботаСБанкамиКлиент</content>
-  <content>CommonModule.РаботаСБанкамиПереопределяемый</content>
-  <content>DataProcessor.ЗагрузкаКлассификатораБанков</content>
-  <content>CommonModule.РаботаСБанкамиСлужебный</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

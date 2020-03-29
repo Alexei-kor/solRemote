@@ -1,34 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="52f6a2b0-ce55-4e89-8037-275f2b6a6817">
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62305408-0eac-4251-b4b0-2e6223ec1664">
   <producedTypes>
-    <objectType typeId="20daf617-4fd8-4ebc-9655-4d08a8b5748d" valueTypeId="caf2d0aa-3bd0-4eab-8ffe-46f73391feaf"/>
-    <managerType typeId="61c31f04-dd3d-4d46-8c72-146cffdb6445" valueTypeId="26cf8d17-1f83-4683-8d04-2cbaf266f0d0"/>
+    <objectType typeId="8781e74a-552d-40ec-9eec-563fd40de5af" valueTypeId="c8286ae1-c64b-45dd-a000-53abc6aa94c3"/>
+    <managerType typeId="a04c9222-0a2e-4e80-b3a5-ea604e652728" valueTypeId="0dd4be6a-232c-4a47-ad00-451248c04a5c"/>
   </producedTypes>
   <name>ЗагрузкаКлассификатораБанков</name>
   <synonym>
     <key>ru</key>
     <value>Загрузка классификатора банков</value>
   </synonym>
-  <defaultForm>DataProcessor.ЗагрузкаКлассификатораБанков.Form.Форма</defaultForm>
-  <forms uuid="310aef5a-84d9-4a68-af78-d623beff8a88">
-    <name>Форма</name>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="5b9d86d3-a3b9-4de3-a03f-7ee8e9a7e393">
+    <name>ЗагрузкаКлассификатора</name>
     <synonym>
       <key>ru</key>
-      <value>Форма</value>
+      <value>Загрузка классификатора</value>
     </synonym>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <commands uuid="8318e6cd-18e8-47e9-89e7-94ff043afab9">
-    <name>ЗагрузкаКлассификатораБанков</name>
-    <synonym>
-      <key>ru</key>
-      <value>Загрузка классификатора банков РФ</value>
-    </synonym>
-    <comment>Открывает помощник загрузки классификатора банков РФ</comment>
-    <group>ActionsPanelTools</group>
-    <commandParameterType/>
-    <representation>Auto</representation>
-    <shortcut></shortcut>
-  </commands>
 </mdclass:DataProcessor>

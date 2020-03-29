@@ -31,6 +31,8 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ЛампыЗагара.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ЛампыЗагара.Form.ФормаСписка</defaultListForm>
   <attributes uuid="b31e2ffe-4792-4c98-9761-9ecb78834f2f">
     <name>КоличествоМинут</name>
     <synonym>
@@ -50,4 +52,22 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="8b5bee79-011a-40fc-9070-88eb8d3cb4db">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="49032ab6-af1c-449f-bd8f-926e8e119873">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

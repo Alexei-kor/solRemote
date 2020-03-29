@@ -175,6 +175,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="c687d150-aad4-4962-8084-55b97d9386f4">
+    <name>ДеятельностьПрекращена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Деятельность прекращена</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="1e8f89f5-5929-4b83-aef5-7e7eed1dcf27">
     <name>ФормаСписка</name>
     <synonym>
@@ -193,15 +205,4 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <commands uuid="909c625d-11f8-4785-8366-e87c028346cc">
-    <name>ЗагрузитьИзКлассифиватора</name>
-    <synonym>
-      <key>ru</key>
-      <value>Загрузить из классифиватора</value>
-    </synonym>
-    <group>FormCommandBarImportant</group>
-    <commandParameterType/>
-    <representation>Auto</representation>
-    <shortcut></shortcut>
-  </commands>
 </mdclass:Catalog>

@@ -355,29 +355,29 @@
   <commonTemplates>CommonTemplate.СтруктураПодчиненности</commonTemplates>
   <filterCriteria>FilterCriterion.СвязанныеДокументы</filterCriteria>
   <commonModules>CommonModule.АдминистрированиеКластера</commonModules>
-  <commonModules>CommonModule.ГрупповоеИзменениеОбъектовПереопределяемый</commonModules>
-  <commonModules>CommonModule.ВерсионированиеОбъектов</commonModules>
-  <commonModules>CommonModule.ВариантыОтчетовПереопределяемый</commonModules>
-  <commonModules>CommonModule.АнализЖурналаРегистрацииКлиент</commonModules>
-  <commonModules>CommonModule.ВерсионированиеОбъектовКлиент</commonModules>
-  <commonModules>CommonModule.ВерсионированиеОбъектовСлужебныйВызовСервера</commonModules>
-  <commonModules>CommonModule.АнализЖурналаРегистрацииСлужебный</commonModules>
-  <commonModules>CommonModule.ДатыЗапретаИзменения</commonModules>
-  <commonModules>CommonModule.ВариантыОтчетовПовтИсп</commonModules>
-  <commonModules>CommonModule.ГрупповоеИзменениеОбъектовКлиент</commonModules>
+  <commonModules>CommonModule.АдминистрированиеКластераCOM</commonModules>
+  <commonModules>CommonModule.АдминистрированиеКластераCOMКлиентСервер</commonModules>
   <commonModules>CommonModule.АдминистрированиеКластераRAS</commonModules>
+  <commonModules>CommonModule.АдминистрированиеКластераRASКлиентСервер</commonModules>
+  <commonModules>CommonModule.АдминистрированиеКластераКлиентСервер</commonModules>
+  <commonModules>CommonModule.АнализЖурналаРегистрацииКлиент</commonModules>
+  <commonModules>CommonModule.АнализЖурналаРегистрацииСлужебный</commonModules>
+  <commonModules>CommonModule.ВариантыОтчетов</commonModules>
+  <commonModules>CommonModule.ВариантыОтчетовВызовСервера</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовКлиент</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовКлиентСервер</commonModules>
-  <commonModules>CommonModule.АдминистрированиеКластераCOMКлиентСервер</commonModules>
-  <commonModules>CommonModule.ВариантыОтчетовВызовСервера</commonModules>
-  <commonModules>CommonModule.ВерсионированиеОбъектовСобытия</commonModules>
-  <commonModules>CommonModule.ВнешниеПользователиКлиент</commonModules>
-  <commonModules>CommonModule.АдминистрированиеКластераRASКлиентСервер</commonModules>
-  <commonModules>CommonModule.ВнешниеПользователи</commonModules>
+  <commonModules>CommonModule.ВариантыОтчетовПереопределяемый</commonModules>
+  <commonModules>CommonModule.ВариантыОтчетовПовтИсп</commonModules>
+  <commonModules>CommonModule.ВерсионированиеОбъектов</commonModules>
+  <commonModules>CommonModule.ВерсионированиеОбъектовКлиент</commonModules>
   <commonModules>CommonModule.ВерсионированиеОбъектовПереопределяемый</commonModules>
-  <commonModules>CommonModule.ВариантыОтчетов</commonModules>
-  <commonModules>CommonModule.АдминистрированиеКластераКлиентСервер</commonModules>
-  <commonModules>CommonModule.АдминистрированиеКластераCOM</commonModules>
+  <commonModules>CommonModule.ВерсионированиеОбъектовСлужебныйВызовСервера</commonModules>
+  <commonModules>CommonModule.ВерсионированиеОбъектовСобытия</commonModules>
+  <commonModules>CommonModule.ВнешниеПользователи</commonModules>
+  <commonModules>CommonModule.ВнешниеПользователиКлиент</commonModules>
+  <commonModules>CommonModule.ГрупповоеИзменениеОбъектовКлиент</commonModules>
+  <commonModules>CommonModule.ГрупповоеИзменениеОбъектовПереопределяемый</commonModules>
+  <commonModules>CommonModule.ДатыЗапретаИзменения</commonModules>
   <commonModules>CommonModule.ДатыЗапретаИзмененияПереопределяемый</commonModules>
   <commonModules>CommonModule.ДатыЗапретаИзмененияСлужебный</commonModules>
   <commonModules>CommonModule.ДатыЗапретаИзмененияСлужебныйКлиент</commonModules>
@@ -403,6 +403,9 @@
   <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиент</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСПКлиентПовтИсп</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемБСППовтИсп</commonModules>
+  <commonModules>CommonModule.КалендарныеГрафики</commonModules>
+  <commonModules>CommonModule.КалендарныеГрафикиПереопределяемый</commonModules>
+  <commonModules>CommonModule.КалендарныеГрафикиСлужебный</commonModules>
   <commonModules>CommonModule.КонтрольВеденияУчета</commonModules>
   <commonModules>CommonModule.КонтрольВеденияУчетаВызовСервера</commonModules>
   <commonModules>CommonModule.КонтрольВеденияУчетаГлобальный</commonModules>
@@ -428,7 +431,6 @@
   <commonModules>CommonModule.НастройкаПорядкаЭлементовСлужебный</commonModules>
   <commonModules>CommonModule.НастройкиПрограммыПереопределяемый</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазы</commonModules>
-  <commonModules>CommonModule.ОбновлениеИнформационнойБазыУчетВСолярии</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыВызовСервера</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыГлобальный</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыКлиент</commonModules>
@@ -437,6 +439,7 @@
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебный</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ОбновлениеИнформационнойБазыСлужебныйПовтИсп</commonModules>
+  <commonModules>CommonModule.ОбновлениеИнформационнойБазыУчетВСолярии</commonModules>
   <commonModules>CommonModule.ОбщегоНазначения</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияВызовСервера</commonModules>
   <commonModules>CommonModule.ОбщегоНазначенияГлобальный</commonModules>
@@ -477,6 +480,11 @@
   <commonModules>CommonModule.ПолнотекстовыйПоискСерверПереопределяемый</commonModules>
   <commonModules>CommonModule.ПолнотекстовыйПоискСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.ПолнотекстовыйПоискСлужебныйКлиент</commonModules>
+  <commonModules>CommonModule.ПолучениеФайловИзИнтернета</commonModules>
+  <commonModules>CommonModule.ПолучениеФайловИзИнтернетаКлиент</commonModules>
+  <commonModules>CommonModule.ПолучениеФайловИзИнтернетаКлиентСервер</commonModules>
+  <commonModules>CommonModule.ПолучениеФайловИзИнтернетаСлужебный</commonModules>
+  <commonModules>CommonModule.ПолучениеФайловИзИнтернетаСлужебныйВызовСервера</commonModules>
   <commonModules>CommonModule.Пользователи</commonModules>
   <commonModules>CommonModule.ПользователиКлиент</commonModules>
   <commonModules>CommonModule.ПользователиКлиентСервер</commonModules>
@@ -488,6 +496,9 @@
   <commonModules>CommonModule.РаботаСАдресами</commonModules>
   <commonModules>CommonModule.РаботаСАдресамиКлиент</commonModules>
   <commonModules>CommonModule.РаботаСАдресамиКлиентСервер</commonModules>
+  <commonModules>CommonModule.РаботаСБанками</commonModules>
+  <commonModules>CommonModule.РаботаСБанкамиКлиент</commonModules>
+  <commonModules>CommonModule.РаботаСБанкамиПереопределяемый</commonModules>
   <commonModules>CommonModule.РегламентированныеДанныеКлиентСервер</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
   <commonModules>CommonModule.РезервноеКопированиеИБВызовСервера</commonModules>
@@ -549,19 +560,6 @@
   <commonModules>CommonModule.ФайловаяСистемаКлиент</commonModules>
   <commonModules>CommonModule.ФайловаяСистемаСлужебныйКлиент</commonModules>
   <commonModules>CommonModule.ФизическиеЛицаКлиентСервер</commonModules>
-  <commonModules>CommonModule.КалендарныеГрафики</commonModules>
-  <commonModules>CommonModule.КалендарныеГрафикиПереопределяемый</commonModules>
-  <commonModules>CommonModule.КалендарныеГрафикиСлужебный</commonModules>
-  <commonModules>CommonModule.РаботаСБанками</commonModules>
-  <commonModules>CommonModule.РаботаСБанкамиГлобальный</commonModules>
-  <commonModules>CommonModule.РаботаСБанкамиКлиент</commonModules>
-  <commonModules>CommonModule.РаботаСБанкамиПереопределяемый</commonModules>
-  <commonModules>CommonModule.РаботаСБанкамиСлужебный</commonModules>
-  <commonModules>CommonModule.ПолучениеФайловИзИнтернета</commonModules>
-  <commonModules>CommonModule.ПолучениеФайловИзИнтернетаКлиент</commonModules>
-  <commonModules>CommonModule.ПолучениеФайловИзИнтернетаКлиентСервер</commonModules>
-  <commonModules>CommonModule.ПолучениеФайловИзИнтернетаСлужебный</commonModules>
-  <commonModules>CommonModule.ПолучениеФайловИзИнтернетаСлужебныйВызовСервера</commonModules>
   <commonAttributes>CommonAttribute.КомментарийЯзык1</commonAttributes>
   <commonAttributes>CommonAttribute.КомментарийЯзык2</commonAttributes>
   <commonAttributes>CommonAttribute.НаименованиеЯзык1</commonAttributes>
@@ -668,6 +666,8 @@
   <commandGroups>CommandGroup.Печать</commandGroups>
   <constants>Constant.АдресПубликацииИнформационнойБазыВИнтернете</constants>
   <constants>Constant.АдресПубликацииИнформационнойБазыВЛокальнойСети</constants>
+  <constants>Constant.ВерсияДатЗапретаИзменения</constants>
+  <constants>Constant.ВерсияКлассификатораБанков</constants>
   <constants>Constant.ВыполнятьЗамерыПроизводительности</constants>
   <constants>Constant.ГлавныйУзел</constants>
   <constants>Constant.ДатаПоследнейВыгрузкиЗамеровПроизводительностиUTC</constants>
@@ -685,12 +685,13 @@
   <constants>Constant.ИспользоватьДополнительныйЯзык2</constants>
   <constants>Constant.ИспользоватьЗаметки</constants>
   <constants>Constant.ИспользоватьНапоминанияПользователя</constants>
+  <constants>Constant.ИспользоватьНесколькоОрганизаций</constants>
   <constants>Constant.ИспользоватьПолнотекстовыйПоиск</constants>
   <constants>Constant.ИспользоватьРазделениеПоОбластямДанных</constants>
   <constants>Constant.ИспользоватьУдалениеПомеченныхОбъектов</constants>
   <constants>Constant.КоличествоЗамеровВПакетеЭкспорта</constants>
   <constants>Constant.КоличествоПотоковОбновленияИнформационнойБазы</constants>
-  <constants>Constant.ВерсияДатЗапретаИзменения</constants>
+  <constants>Constant.НастройкаПроксиСервера</constants>
   <constants>Constant.НастройкиВходаПользователей</constants>
   <constants>Constant.НастройкиКолонтитулов</constants>
   <constants>Constant.НеИспользоватьРазделениеПоОбластямДанных</constants>
@@ -704,9 +705,6 @@
   <constants>Constant.СведенияОБлокируемыхОбъектах</constants>
   <constants>Constant.СведенияОбОбновленииИБ</constants>
   <constants>Constant.ЭтоАвтономноеРабочееМесто</constants>
-  <constants>Constant.ИспользоватьНесколькоОрганизаций</constants>
-  <constants>Constant.ВерсияКлассификатораБанков</constants>
-  <constants>Constant.НастройкаПроксиСервера</constants>
   <commonForms>CommonForm.ВводЗначенийСпискомСФлажками</commonForms>
   <commonForms>CommonForm.ВводНаРазныхЯзыках</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</commonForms>
@@ -747,39 +745,39 @@
   <commonForms>CommonForm.ФормаПоиска</commonForms>
   <commonForms>CommonForm.ДополнительныеПараметрыПроксиСервера</commonForms>
   <commonForms>CommonForm.ПараметрыПроксиСервера</commonForms>
+  <catalogs>Catalog.Абонементы</catalogs>
+  <catalogs>Catalog.БанковскиеСчета</catalogs>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
-  <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
+  <catalogs>Catalog.ВидыКонтактнойИнформации</catalogs>
   <catalogs>Catalog.ВидыПроверок</catalogs>
   <catalogs>Catalog.ВнешниеПользователи</catalogs>
+  <catalogs>Catalog.ГрафикиРаботы</catalogs>
   <catalogs>Catalog.ГруппыВнешнихПользователей</catalogs>
   <catalogs>Catalog.ГруппыПользователей</catalogs>
+  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
   <catalogs>Catalog.Заметки</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
+  <catalogs>Catalog.КабинкиЗагара</catalogs>
+  <catalogs>Catalog.Кассы</catalogs>
+  <catalogs>Catalog.КлассификаторБанков</catalogs>
   <catalogs>Catalog.КлючевыеОперации</catalogs>
+  <catalogs>Catalog.Контрагенты</catalogs>
+  <catalogs>Catalog.ЛампыЗагара</catalogs>
+  <catalogs>Catalog.МестаХранения</catalogs>
+  <catalogs>Catalog.Номенклатура</catalogs>
+  <catalogs>Catalog.Организации</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <catalogs>Catalog.ПользовательскиеНастройкиОтчетов</catalogs>
   <catalogs>Catalog.ПравилаПроверкиУчета</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетов</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетовРасширений</catalogs>
-  <catalogs>Catalog.ПрофилиКлючевыхОпераций</catalogs>
-  <catalogs>Catalog.СтраныМира</catalogs>
-  <catalogs>Catalog.Организации</catalogs>
-  <catalogs>Catalog.Контрагенты</catalogs>
-  <catalogs>Catalog.БанковскиеСчета</catalogs>
-  <catalogs>Catalog.КлассификаторБанков</catalogs>
-  <catalogs>Catalog.КабинкиЗагара</catalogs>
-  <catalogs>Catalog.Абонементы</catalogs>
-  <catalogs>Catalog.ТипыЦен</catalogs>
-  <catalogs>Catalog.Номенклатура</catalogs>
-  <catalogs>Catalog.МестаХранения</catalogs>
-  <catalogs>Catalog.ЕдиницыИзмерения</catalogs>
-  <catalogs>Catalog.СтатьиЗатрат</catalogs>
-  <catalogs>Catalog.Кассы</catalogs>
-  <catalogs>Catalog.ЛампыЗагара</catalogs>
   <catalogs>Catalog.ПроизводственныеКалендари</catalogs>
-  <catalogs>Catalog.ГрафикиРаботы</catalogs>
+  <catalogs>Catalog.ПрофилиКлючевыхОпераций</catalogs>
+  <catalogs>Catalog.СтатьиЗатрат</catalogs>
+  <catalogs>Catalog.СтраныМира</catalogs>
+  <catalogs>Catalog.ТипыЦен</catalogs>
   <documents>Document.ПокупкаТоваровУслуг</documents>
   <enums>Enum.ВажностьПроблемыУчета</enums>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
@@ -796,8 +794,8 @@
   <enums>Enum.ТипыОтчетов</enums>
   <enums>Enum.УровниПроизводительности</enums>
   <enums>Enum.ФорматыСохраненияОтчетов</enums>
-  <enums>Enum.ЮрФизЛицо</enums>
   <enums>Enum.ЦветаЗаметок</enums>
+  <enums>Enum.ЮрФизЛицо</enums>
   <reports>Report.АнализВерсийОбъектов</reports>
   <reports>Report.АнализЖурналаРегистрации</reports>
   <reports>Report.ДатыЗапретаЗагрузки</reports>
@@ -833,7 +831,9 @@
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеПроизводственногоКалендаря</informationRegisters>
+  <informationRegisters>InformationRegister.ДанныеПроизводственногоКалендаряПомесячно</informationRegisters>
   <informationRegisters>InformationRegister.ДатыЗапретаИзменения</informationRegisters>
+  <informationRegisters>InformationRegister.ДатыПриобретенияЛамп</informationRegisters>
   <informationRegisters>InformationRegister.ЗамерыВремени</informationRegisters>
   <informationRegisters>InformationRegister.ЗамерыВремениТехнологические</informationRegisters>
   <informationRegisters>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</informationRegisters>
@@ -854,8 +854,6 @@
   <informationRegisters>InformationRegister.СеансыВерсийРасширений</informationRegisters>
   <informationRegisters>InformationRegister.СоставыГруппПользователей</informationRegisters>
   <informationRegisters>InformationRegister.СостоянияПроверокВеденияУчета</informationRegisters>
-  <informationRegisters>InformationRegister.ДатыПриобретенияЛамп</informationRegisters>
   <informationRegisters>InformationRegister.УдалитьЗамерыВремени3</informationRegisters>
-  <informationRegisters>InformationRegister.ДанныеПроизводственногоКалендаряПомесячно</informationRegisters>
   <chartsOfCharacteristicTypes>ChartOfCharacteristicTypes.РазделыДатЗапретаИзменения</chartsOfCharacteristicTypes>
 </mdclass:Configuration>

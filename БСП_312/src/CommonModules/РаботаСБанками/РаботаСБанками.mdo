@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b98ca634-25a5-4366-af04-815ba34c8bb2">
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="253bb197-6afd-453c-9564-3ac9314185a5">
   <name>РаботаСБанками</name>
   <synonym>
     <key>ru</key>
@@ -7,5 +7,4 @@
   </synonym>
   <server>true</server>
   <externalConnection>true</externalConnection>
-  <clientOrdinaryApplication>true</clientOrdinaryApplication>
 </mdclass:CommonModule>
